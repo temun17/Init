@@ -1,0 +1,3 @@
+# What command keys lets you know who is connected to the System?
+
+who | awk '{print $2}'

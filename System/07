@@ -1,0 +1,3 @@
+# Figure out the PID of the SSHD service
+
+ps aux | grep "sshd" | grep -v "sshd_config" | awk '{print $2}'

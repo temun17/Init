@@ -1,0 +1,5 @@
+# Find the service which makes it possible to run specific tasks following a regular schedule
+
+/etc/crontab
+
+# using crontab I was able to run my sh files and set them at a specific time

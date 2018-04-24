@@ -1,0 +1,5 @@
+# Run the 'tail -f /var/log/syslog' command in the background
+
+tail -f /var/sys/syslong &
+
+# & stands for running a command in the background

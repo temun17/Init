@@ -1,0 +1,3 @@
+# Make the intra.42.fd address reroute to 46.19.122.85
+
+In order to reroute the IP address to 46.19.122.85 you would have to modify /etc/hosts file given the ip and the url

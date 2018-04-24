@@ -1,0 +1,3 @@
+# What file contains the local DNS entries?
+
+The local DNS entries file can be located at /etc/hosts.

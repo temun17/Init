@@ -1,0 +1,7 @@
+# Identify the IP address of the DNS that responds to the following url: slash16.org
+
+dig slash16.org | grep SERVER | awk '{print $3}' | awk -F '[()]' '{print $2}'
+
+# dig is used to query DNS fo slash16.org
+# the IP address i located in the server
+awk -F '[()]' will extract the values between the brackets
